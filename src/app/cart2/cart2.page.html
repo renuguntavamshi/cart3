@@ -1,0 +1,112 @@
+
+<ion-content>
+  <div class="main_content_div">
+    <div class="back_div" >
+     <ion-buttons slot="start">
+   <ion-icon name="chevron-back-outline" class="back_btn"></ion-icon>
+     </ion-buttons>
+     <p id="shopping_cart">Checkout</p>
+     
+     
+     </div><!--back_div-->
+    <div class="container">
+     <ion-grid>
+       <ion-row>
+         <ion-col>
+             <!-- List of Text Items -->
+             <ion-list lines="none">
+              <ion-note class="delivered">Delivered To </ion-note>
+              <ion-note class="end">Edit</ion-note>
+              <ion-item  lines="none" >
+
+<ion-thumbnail >
+                   <img src="/assets/images/GPS.png" class="gps" alt="">
+                 </ion-thumbnail>
+                 <ion-label >Text-address any location,City,pincode
+                 </ion-label>
+               </ion-item>
+            
+         </ion-list>
+
+         <ion-list lines="none">
+          <ion-note class="delivered">Payment Method</ion-note>
+          <ion-note class="end">Edit</ion-note>
+          <ion-item  lines="none" >
+               <img src="/assets/images/paypal.png" width="100px" height="30px">
+               <ion-label  slot="end"><h2>1234 5678 9012 ****</h2>
+               </ion-label>
+           </ion-item>
+        
+     </ion-list>
+     <ion-list lines="none">
+      <ion-note class="delivered">Payment Method </ion-note>
+      <ion-note class="end">Edit</ion-note>
+      <ion-item  lines="none" >
+        <img src="/assets/images/razorpay.png"   width="100px" height="30px">
+        <ion-label  slot="end"><h2>1234 5678 9012 ****</h2>
+         </ion-label>
+       </ion-item>
+    
+ </ion-list>         <!-- List of Input Items -->
+
+
+            <br>
+            <br>
+            <br>
+   
+          </ion-col>
+       </ion-row>
+       </ion-grid>
+       <ion-card  class="listing_card">
+         <ion-list class="list" lines="none">
+           
+           <ion-item  class="item " lines="none" >
+             <ion-label >SubTotal</ion-label>
+             <ion-note slot="end">₹240</ion-note>
+           </ion-item>
+           <ion-item  class="item"  lines="none">
+             <ion-label>Shipping Fee</ion-label>
+             <ion-note slot="end">₹40</ion-note>
+           </ion-item>
+           <ion-item  class="item" lines="none">
+             <ion-label>Discount</ion-label>
+             <ion-note slot="end">₹20</ion-note>
+           </ion-item>
+           <ion-item  class="item" lines="none">
+             <ion-label>Total</ion-label>
+             <ion-note slot="end">₹300</ion-note>
+           </ion-item>
+            
+             
+         </ion-list>
+      </ion-card>
+    
+     <div class="sticky">
+       <ion-tabs>
+         <ion-tab-bar slot="bottom">
+           <ion-tab-button tab="schedule">
+             <ion-icon name="home"></ion-icon>
+           </ion-tab-button>
+       
+           <ion-tab-button tab="apps">
+             <ion-icon name="apps-outline"></ion-icon>
+                  </ion-tab-button>
+       
+           <ion-tab-button tab="cart">
+             <ion-icon name="cart"></ion-icon><span>
+             <ion-label>Cart</ion-label></span>
+           </ion-tab-button>
+       
+           <ion-tab-button tab="about">
+             <ion-icon name="checkbox-outline"></ion-icon>
+             
+           </ion-tab-button>
+         </ion-tab-bar>
+       </ion-tabs>
+     </div>
+    </div><!--container-->
+     </div><!--main_content_div-->
+
+
+
+</ion-content>  

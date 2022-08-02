@@ -1,0 +1,23 @@
+ion-content{
+    --background:var(--ion-color-dark) url("/assets/icon/leaf2.jpg") no-repeat center center/cover;
+
+}
+ion-list{
+    transform: translateY(30vh);
+    background: transparent;
+        ion-list-header{
+            margin-bottom: 40px;
+            letter-spacing: 3px;
+            --color:white;
+            text-align: center;
+        }
+    }
+    ion-button{
+        --border-color:white;
+        --color:white;
+        text-transform: initial;
+    }
+ion-text p{
+    --color:white;  
+    --border-color:white;
+}
